@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		402E26EEBDF2D71216E76073 /* Pods_CXDHoshiTextField_CXDHoshiTextFieldUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362FD71745D3024F1D6E3390 /* Pods_CXDHoshiTextField_CXDHoshiTextFieldUITests.framework */; };
+		4863660423682DBF008611A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4863660323682DBF008611A9 /* AppDelegate.m */; };
+		4863660723682DBF008611A9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4863660623682DBF008611A9 /* SceneDelegate.m */; };
+		4863660A23682DBF008611A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4863660923682DBF008611A9 /* ViewController.m */; };
+		4863660D23682DBF008611A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4863660B23682DBF008611A9 /* Main.storyboard */; };
+		4863660F23682DC0008611A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4863660E23682DC0008611A9 /* Assets.xcassets */; };
+		4863661223682DC0008611A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4863661023682DC0008611A9 /* LaunchScreen.storyboard */; };
+		4863661523682DC0008611A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4863661423682DC0008611A9 /* main.m */; };
+		4863661F23682DC0008611A9 /* CXDHoshiTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4863661E23682DC0008611A9 /* CXDHoshiTextFieldTests.m */; };
+		4863662A23682DC0008611A9 /* CXDHoshiTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4863662923682DC0008611A9 /* CXDHoshiTextFieldUITests.m */; };
+		4863663B23682E71008611A9 /* CXDHoshiTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4863663A23682E71008611A9 /* CXDHoshiTextField.m */; };
+		486366442368319D008611A9 /* UIView+CXDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 486366432368319D008611A9 /* UIView+CXDAdd.m */; };
+		4ADCB9EC05DC851B923C8559 /* Pods_CXDHoshiTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2684DB84DFE1499C4CC9D81 /* Pods_CXDHoshiTextField.framework */; };
+		819034B7AB45A1266BB43102 /* Pods_CXDHoshiTextFieldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11754941F3FCF3D1632C9EFA /* Pods_CXDHoshiTextFieldTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4863661B23682DC0008611A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 486365F723682DBF008611A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 486365FE23682DBF008611A9;
+			remoteInfo = CXDHoshiTextField;
+		};
+		4863662623682DC0008611A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 486365F723682DBF008611A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 486365FE23682DBF008611A9;
+			remoteInfo = CXDHoshiTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A3AE900AC40E3678DDA737 /* Pods-CXDHoshiTextFieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXDHoshiTextFieldTests.release.xcconfig"; path = "Target Support Files/Pods-CXDHoshiTextFieldTests/Pods-CXDHoshiTextFieldTests.release.xcconfig"; sourceTree = "<group>"; };
+		11754941F3FCF3D1632C9EFA /* Pods_CXDHoshiTextFieldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXDHoshiTextFieldTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		362FD71745D3024F1D6E3390 /* Pods_CXDHoshiTextField_CXDHoshiTextFieldUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXDHoshiTextField_CXDHoshiTextFieldUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		486365FF23682DBF008611A9 /* CXDHoshiTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXDHoshiTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4863660223682DBF008611A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4863660323682DBF008611A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4863660523682DBF008611A9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4863660623682DBF008611A9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4863660823682DBF008611A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4863660923682DBF008611A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4863660C23682DBF008611A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4863660E23682DC0008611A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4863661123682DC0008611A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4863661323682DC0008611A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4863661423682DC0008611A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4863661A23682DC0008611A9 /* CXDHoshiTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXDHoshiTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4863661E23682DC0008611A9 /* CXDHoshiTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXDHoshiTextFieldTests.m; sourceTree = "<group>"; };
+		4863662023682DC0008611A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4863662523682DC0008611A9 /* CXDHoshiTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXDHoshiTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4863662923682DC0008611A9 /* CXDHoshiTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXDHoshiTextFieldUITests.m; sourceTree = "<group>"; };
+		4863662B23682DC0008611A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4863663923682E71008611A9 /* CXDHoshiTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXDHoshiTextField.h; sourceTree = "<group>"; };
+		4863663A23682E71008611A9 /* CXDHoshiTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXDHoshiTextField.m; sourceTree = "<group>"; };
+		4863663D23682EC1008611A9 /* CXDPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXDPrefixHeader.pch; sourceTree = "<group>"; };
+		4863663E23682F69008611A9 /* CXDHeaderMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXDHeaderMacro.h; sourceTree = "<group>"; };
+		486366422368319D008611A9 /* UIView+CXDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CXDAdd.h"; sourceTree = "<group>"; };
+		486366432368319D008611A9 /* UIView+CXDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CXDAdd.m"; sourceTree = "<group>"; };
+		6B1A86E81A7BF402C80F52E7 /* Pods-CXDHoshiTextFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXDHoshiTextFieldTests.debug.xcconfig"; path = "Target Support Files/Pods-CXDHoshiTextFieldTests/Pods-CXDHoshiTextFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
+		88C1426F3CB32D34937699ED /* Pods-CXDHoshiTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXDHoshiTextField.debug.xcconfig"; path = "Target Support Files/Pods-CXDHoshiTextField/Pods-CXDHoshiTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		89F16411156A318FE88B2341 /* Pods-CXDHoshiTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXDHoshiTextField.release.xcconfig"; path = "Target Support Files/Pods-CXDHoshiTextField/Pods-CXDHoshiTextField.release.xcconfig"; sourceTree = "<group>"; };
+		BD53351C39A9820864B8C197 /* Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests.debug.xcconfig"; path = "Target Support Files/Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests/Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB3459A1B4BADBF494C05E9B /* Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests.release.xcconfig"; path = "Target Support Files/Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests/Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E2684DB84DFE1499C4CC9D81 /* Pods_CXDHoshiTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXDHoshiTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		486365FC23682DBF008611A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADCB9EC05DC851B923C8559 /* Pods_CXDHoshiTextField.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4863661723682DC0008611A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819034B7AB45A1266BB43102 /* Pods_CXDHoshiTextFieldTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4863662223682DC0008611A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402E26EEBDF2D71216E76073 /* Pods_CXDHoshiTextField_CXDHoshiTextFieldUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E1AA3A45E330FBD82C87180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2684DB84DFE1499C4CC9D81 /* Pods_CXDHoshiTextField.framework */,
+				362FD71745D3024F1D6E3390 /* Pods_CXDHoshiTextField_CXDHoshiTextFieldUITests.framework */,
+				11754941F3FCF3D1632C9EFA /* Pods_CXDHoshiTextFieldTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		486365F623682DBF008611A9 = {
+			isa = PBXGroup;
+			children = (
+				4863660123682DBF008611A9 /* CXDHoshiTextField */,
+				4863661D23682DC0008611A9 /* CXDHoshiTextFieldTests */,
+				4863662823682DC0008611A9 /* CXDHoshiTextFieldUITests */,
+				4863660023682DBF008611A9 /* Products */,
+				6B34DAF4FB56A9E738FB411A /* Pods */,
+				1E1AA3A45E330FBD82C87180 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4863660023682DBF008611A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				486365FF23682DBF008611A9 /* CXDHoshiTextField.app */,
+				4863661A23682DC0008611A9 /* CXDHoshiTextFieldTests.xctest */,
+				4863662523682DC0008611A9 /* CXDHoshiTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4863660123682DBF008611A9 /* CXDHoshiTextField */ = {
+			isa = PBXGroup;
+			children = (
+				4863663F2368317F008611A9 /* BaseClasses */,
+				4863663C23682E86008611A9 /* SupportingFile */,
+				4863663823682E58008611A9 /* CXDHoshiTextField */,
+				4863660223682DBF008611A9 /* AppDelegate.h */,
+				4863660323682DBF008611A9 /* AppDelegate.m */,
+				4863660523682DBF008611A9 /* SceneDelegate.h */,
+				4863660623682DBF008611A9 /* SceneDelegate.m */,
+				4863660823682DBF008611A9 /* ViewController.h */,
+				4863660923682DBF008611A9 /* ViewController.m */,
+				4863660B23682DBF008611A9 /* Main.storyboard */,
+				4863660E23682DC0008611A9 /* Assets.xcassets */,
+				4863661023682DC0008611A9 /* LaunchScreen.storyboard */,
+				4863661323682DC0008611A9 /* Info.plist */,
+				4863661423682DC0008611A9 /* main.m */,
+			);
+			path = CXDHoshiTextField;
+			sourceTree = "<group>";
+		};
+		4863661D23682DC0008611A9 /* CXDHoshiTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				4863661E23682DC0008611A9 /* CXDHoshiTextFieldTests.m */,
+				4863662023682DC0008611A9 /* Info.plist */,
+			);
+			path = CXDHoshiTextFieldTests;
+			sourceTree = "<group>";
+		};
+		4863662823682DC0008611A9 /* CXDHoshiTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4863662923682DC0008611A9 /* CXDHoshiTextFieldUITests.m */,
+				4863662B23682DC0008611A9 /* Info.plist */,
+			);
+			path = CXDHoshiTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		4863663823682E58008611A9 /* CXDHoshiTextField */ = {
+			isa = PBXGroup;
+			children = (
+				4863663923682E71008611A9 /* CXDHoshiTextField.h */,
+				4863663A23682E71008611A9 /* CXDHoshiTextField.m */,
+			);
+			path = CXDHoshiTextField;
+			sourceTree = "<group>";
+		};
+		4863663C23682E86008611A9 /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				4863663D23682EC1008611A9 /* CXDPrefixHeader.pch */,
+				4863663E23682F69008611A9 /* CXDHeaderMacro.h */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		4863663F2368317F008611A9 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4863664023683189008611A9 /* Category */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		4863664023683189008611A9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4863664123683192008611A9 /* UIKit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4863664123683192008611A9 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				486366422368319D008611A9 /* UIView+CXDAdd.h */,
+				486366432368319D008611A9 /* UIView+CXDAdd.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		6B34DAF4FB56A9E738FB411A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88C1426F3CB32D34937699ED /* Pods-CXDHoshiTextField.debug.xcconfig */,
+				89F16411156A318FE88B2341 /* Pods-CXDHoshiTextField.release.xcconfig */,
+				BD53351C39A9820864B8C197 /* Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests.debug.xcconfig */,
+				CB3459A1B4BADBF494C05E9B /* Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests.release.xcconfig */,
+				6B1A86E81A7BF402C80F52E7 /* Pods-CXDHoshiTextFieldTests.debug.xcconfig */,
+				06A3AE900AC40E3678DDA737 /* Pods-CXDHoshiTextFieldTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		486365FE23682DBF008611A9 /* CXDHoshiTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4863662E23682DC0008611A9 /* Build configuration list for PBXNativeTarget "CXDHoshiTextField" */;
+			buildPhases = (
+				FD807470A2692AFAAC3B3D02 /* [CP] Check Pods Manifest.lock */,
+				486365FB23682DBF008611A9 /* Sources */,
+				486365FC23682DBF008611A9 /* Frameworks */,
+				486365FD23682DBF008611A9 /* Resources */,
+				D6745626EA765A0F577000D4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CXDHoshiTextField;
+			productName = CXDHoshiTextField;
+			productReference = 486365FF23682DBF008611A9 /* CXDHoshiTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4863661923682DC0008611A9 /* CXDHoshiTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4863663123682DC0008611A9 /* Build configuration list for PBXNativeTarget "CXDHoshiTextFieldTests" */;
+			buildPhases = (
+				3980CD5C150A89DD5C8050C9 /* [CP] Check Pods Manifest.lock */,
+				4863661623682DC0008611A9 /* Sources */,
+				4863661723682DC0008611A9 /* Frameworks */,
+				4863661823682DC0008611A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4863661C23682DC0008611A9 /* PBXTargetDependency */,
+			);
+			name = CXDHoshiTextFieldTests;
+			productName = CXDHoshiTextFieldTests;
+			productReference = 4863661A23682DC0008611A9 /* CXDHoshiTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4863662423682DC0008611A9 /* CXDHoshiTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4863663423682DC0008611A9 /* Build configuration list for PBXNativeTarget "CXDHoshiTextFieldUITests" */;
+			buildPhases = (
+				45ECD9E02621FF741CE26B9A /* [CP] Check Pods Manifest.lock */,
+				4863662123682DC0008611A9 /* Sources */,
+				4863662223682DC0008611A9 /* Frameworks */,
+				4863662323682DC0008611A9 /* Resources */,
+				0AD03B8D294F5C8E61890A08 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4863662723682DC0008611A9 /* PBXTargetDependency */,
+			);
+			name = CXDHoshiTextFieldUITests;
+			productName = CXDHoshiTextFieldUITests;
+			productReference = 4863662523682DC0008611A9 /* CXDHoshiTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		486365F723682DBF008611A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = cxd;
+				TargetAttributes = {
+					486365FE23682DBF008611A9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					4863661923682DC0008611A9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 486365FE23682DBF008611A9;
+					};
+					4863662423682DC0008611A9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 486365FE23682DBF008611A9;
+					};
+				};
+			};
+			buildConfigurationList = 486365FA23682DBF008611A9 /* Build configuration list for PBXProject "CXDHoshiTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 486365F623682DBF008611A9;
+			productRefGroup = 4863660023682DBF008611A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				486365FE23682DBF008611A9 /* CXDHoshiTextField */,
+				4863661923682DC0008611A9 /* CXDHoshiTextFieldTests */,
+				4863662423682DC0008611A9 /* CXDHoshiTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		486365FD23682DBF008611A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4863661223682DC0008611A9 /* LaunchScreen.storyboard in Resources */,
+				4863660F23682DC0008611A9 /* Assets.xcassets in Resources */,
+				4863660D23682DBF008611A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4863661823682DC0008611A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4863662323682DC0008611A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AD03B8D294F5C8E61890A08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests/Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests/Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests/Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3980CD5C150A89DD5C8050C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CXDHoshiTextFieldTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45ECD9E02621FF741CE26B9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6745626EA765A0F577000D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CXDHoshiTextField/Pods-CXDHoshiTextField-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CXDHoshiTextField/Pods-CXDHoshiTextField-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CXDHoshiTextField/Pods-CXDHoshiTextField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD807470A2692AFAAC3B3D02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CXDHoshiTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		486365FB23682DBF008611A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4863660A23682DBF008611A9 /* ViewController.m in Sources */,
+				4863663B23682E71008611A9 /* CXDHoshiTextField.m in Sources */,
+				4863660423682DBF008611A9 /* AppDelegate.m in Sources */,
+				4863661523682DC0008611A9 /* main.m in Sources */,
+				486366442368319D008611A9 /* UIView+CXDAdd.m in Sources */,
+				4863660723682DBF008611A9 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4863661623682DC0008611A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4863661F23682DC0008611A9 /* CXDHoshiTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4863662123682DC0008611A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4863662A23682DC0008611A9 /* CXDHoshiTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4863661C23682DC0008611A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 486365FE23682DBF008611A9 /* CXDHoshiTextField */;
+			targetProxy = 4863661B23682DC0008611A9 /* PBXContainerItemProxy */;
+		};
+		4863662723682DC0008611A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 486365FE23682DBF008611A9 /* CXDHoshiTextField */;
+			targetProxy = 4863662623682DC0008611A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4863660B23682DBF008611A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4863660C23682DBF008611A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4863661023682DC0008611A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4863661123682DC0008611A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4863662C23682DC0008611A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4863662D23682DC0008611A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4863662F23682DC0008611A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C1426F3CB32D34937699ED /* Pods-CXDHoshiTextField.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J355KA6BNU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CXDHoshiTextField/SupportingFile/CXDPrefixHeader.pch";
+				INFOPLIST_FILE = CXDHoshiTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxd.CXDHoshiTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4863663023682DC0008611A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F16411156A318FE88B2341 /* Pods-CXDHoshiTextField.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J355KA6BNU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CXDHoshiTextField/SupportingFile/CXDPrefixHeader.pch";
+				INFOPLIST_FILE = CXDHoshiTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxd.CXDHoshiTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4863663223682DC0008611A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1A86E81A7BF402C80F52E7 /* Pods-CXDHoshiTextFieldTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J355KA6BNU;
+				INFOPLIST_FILE = CXDHoshiTextFieldTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxd.CXDHoshiTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CXDHoshiTextField.app/CXDHoshiTextField";
+			};
+			name = Debug;
+		};
+		4863663323682DC0008611A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A3AE900AC40E3678DDA737 /* Pods-CXDHoshiTextFieldTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J355KA6BNU;
+				INFOPLIST_FILE = CXDHoshiTextFieldTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxd.CXDHoshiTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CXDHoshiTextField.app/CXDHoshiTextField";
+			};
+			name = Release;
+		};
+		4863663523682DC0008611A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD53351C39A9820864B8C197 /* Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J355KA6BNU;
+				INFOPLIST_FILE = CXDHoshiTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxd.CXDHoshiTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CXDHoshiTextField;
+			};
+			name = Debug;
+		};
+		4863663623682DC0008611A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3459A1B4BADBF494C05E9B /* Pods-CXDHoshiTextField-CXDHoshiTextFieldUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J355KA6BNU;
+				INFOPLIST_FILE = CXDHoshiTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxd.CXDHoshiTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CXDHoshiTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		486365FA23682DBF008611A9 /* Build configuration list for PBXProject "CXDHoshiTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4863662C23682DC0008611A9 /* Debug */,
+				4863662D23682DC0008611A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4863662E23682DC0008611A9 /* Build configuration list for PBXNativeTarget "CXDHoshiTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4863662F23682DC0008611A9 /* Debug */,
+				4863663023682DC0008611A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4863663123682DC0008611A9 /* Build configuration list for PBXNativeTarget "CXDHoshiTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4863663223682DC0008611A9 /* Debug */,
+				4863663323682DC0008611A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4863663423682DC0008611A9 /* Build configuration list for PBXNativeTarget "CXDHoshiTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4863663523682DC0008611A9 /* Debug */,
+				4863663623682DC0008611A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 486365F723682DBF008611A9 /* Project object */;
+}
